@@ -492,3 +492,25 @@ html{scroll-padding-top:96px}
   }
 
 }
+
+@media (max-width:768px){
+
+  .svc-block{
+    display:block !important;
+    opacity:1 !important;
+    visibility:visible !important;
+    overflow:visible !important;
+  }
+
+}
+@media (max-width:768px){
+
+  #services,
+  #services section,
+  .svc-block{
+    display:block !important;
+    opacity:1 !important;
+    visibility:visible !important;
+  }
+
+}
