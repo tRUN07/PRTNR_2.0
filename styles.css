@@ -514,3 +514,55 @@ html{scroll-padding-top:96px}
   }
 
 }
+
+/* ===== MOBILE FOOTER FIX ===== */
+@media (max-width: 768px){
+
+  .footer-bottom{
+    display:flex !important;
+    flex-direction:column !important;
+    align-items:center !important;
+    text-align:center !important;
+    gap:20px !important;
+  }
+
+  .footer-bottom .links{
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:center;
+    gap:18px;
+  }
+
+  .footer-bottom span,
+  .footer-bottom a{
+    text-align:center;
+  }
+
+  /* Contact rows */
+  .contact-rows .row{
+    display:flex;
+    flex-direction:column;
+    align-items:flex-start;
+    gap:8px;
+    padding:18px;
+  }
+
+  .contact-rows .row span:last-child{
+    word-break:break-word;
+    overflow-wrap:anywhere;
+    font-size:18px;
+    line-height:1.4;
+  }
+
+  /* Footer card spacing */
+  .footer-grid{
+    display:flex !important;
+    flex-direction:column !important;
+    gap:32px !important;
+  }
+
+  .footer .btn{
+    margin-bottom:24px;
+  }
+
+}
