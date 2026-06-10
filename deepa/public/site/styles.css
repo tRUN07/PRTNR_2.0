@@ -6,21 +6,24 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@400;500&display=swap");
 
 :root {
-  --bg:        #0e1426;
-  --panel:     #11182d;
-  --panel-2:   #182143;
-  --cream:     #f6f5ef;
-  --ink:       #0f1530;
-  --ink-soft:  #4a5172;
-  --line:      #e6e4dc;
-  --line-dark: rgba(255,255,255,0.08);
+  --bg:        #1B2631;
+  --panel:     #1B2631;
+  --panel-2:   #2C3A47;
 
-  --electric:      #2c3df0;
-  --electric-glow: #5b6bff;
-  --electric-soft: #cdd2ff;
+  --cream:     #F4F6F7;
 
-  --shadow-card: 0 30px 80px -30px rgba(10, 16, 40, 0.55);
-  --shadow-glow: 0 20px 60px -20px rgba(44, 61, 240, 0.55);
+  --ink:       #1B2631;
+  --ink-soft:  #7F8C8D;
+
+  --line:      #D6DBDF;
+  --line-dark: rgba(27,38,49,.08);
+
+  --electric:      #B7950B;
+  --electric-glow: #D4AC0D;
+  --electric-soft: #F8E9A1;
+
+  --shadow-card: 0 30px 80px -30px rgba(27,38,49,.25);
+  --shadow-glow: 0 20px 60px -20px rgba(183,149,11,.35);
 
   --radius-sm: 12px;
   --radius-md: 18px;
@@ -132,9 +135,9 @@ p { color: var(--ink-soft); }
 .hero {
   position: relative;
   background:
-    radial-gradient(900px 480px at 88% 12%, rgba(91,107,255,0.55), transparent 65%),
-    radial-gradient(700px 380px at 8% 0%,  rgba(44,61,240,0.35),  transparent 70%),
-    linear-gradient(180deg, #0a1024 0%, #0e1530 55%, #11183a 80%, var(--cream) 100%);
+    radial-gradient(900px 480px at 88% 12%, rgba(183,149,11,.18), transparent 65%),
+    radial-gradient(700px 380px at 8% 0%, rgba(183,149,11,.10), transparent 70%),
+    linear-gradient(180deg, #1B2631 0%, #243240 55%, #2C3A47 80%, var(--cream) 100%);
   color: #fff;
   overflow: hidden;
 }
@@ -264,7 +267,7 @@ p { color: var(--ink-soft); }
   padding: 0 0 80px;
 }
 .quote-card {
-  background: linear-gradient(135deg, #0f1530, #1a2350);
+  background: linear-gradient(135deg, #1B2631, #2C3A47);
   color: #fff;
   border-radius: 28px;
   padding: 56px 56px;
@@ -419,7 +422,7 @@ p { color: var(--ink-soft); }
 /* ------ Engagement snapshots (dark cards on cream) ------ */
 .snapshot {
   position: relative;
-  background: linear-gradient(160deg, #0f1530, #1a2350);
+ background: linear-gradient(160deg, #1B2631, #2C3A47);
   color: #fff;
   border: 1px solid rgba(255,255,255,0.08);
   border-radius: 22px;
@@ -544,8 +547,8 @@ p { color: var(--ink-soft); }
 /* ------ Final CTA dark band ------ */
 .cta-band {
   background:
-    radial-gradient(700px 360px at 50% 0%, rgba(91,107,255,0.45), transparent 70%),
-    linear-gradient(180deg, #0c1228, #0e1530);
+    radial-gradient(700px 360px at 50% 0%, rgba(183,149,11,.15), transparent 70%),
+    linear-gradient(180deg, #1B2631, #2C3A47);
   color: #fff;
   padding: 96px 0; text-align: center;
 }
